@@ -4,106 +4,102 @@
     android:layout_height="fill_parent"
     android:background="#607D8B">
 
-<RelativeLayout
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-
-    tools:context=".MainActivity">
-
-
-    <TextView android:text="@string/page_title"
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="30dp"
-        android:id="@+id/textView"
-        android:gravity="center"
-        android:textColor="#FFFDE7" />
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity">
 
-    <Button
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:background="#F08C35"
-        android:text="@string/spotify_button"
-        android:id="@+id/buttonSpotify"
-        android:onClick="launchApp"
-        android:gravity="center"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp" />
+            <TextView android:text="@string/page_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30dp"
+                android:id="@+id/textView"
+                android:gravity="center"
+                android:textColor="#FFFDE7" />
 
-    <Button
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:background="#F08C35"
-        android:text="@string/scores_app_button"
-        android:id="@+id/buttonScoresApp"
-        android:onClick="launchApp"
-        android:layout_below="@+id/buttonSpotify"
-        android:layout_alignRight="@+id/buttonSpotify"
-        android:layout_alignEnd="@+id/buttonSpotify"
-        android:layout_marginTop="10dp"
-        android:gravity="center" />
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="#F08C35"
+                android:text="@string/spotify_button"
+                android:id="@+id/buttonSpotify"
+                android:onClick="launchApp"
+                android:gravity="center"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp" />
 
-    <Button
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:background="#F08C35"
-        android:text="@string/library_app_buttton"
-        android:id="@+id/buttonLibraryApp"
-        android:onClick="launchApp"
-        android:layout_below="@+id/buttonScoresApp"
-        android:layout_alignRight="@+id/buttonScoresApp"
-        android:layout_alignEnd="@+id/buttonScoresApp"
-        android:layout_marginTop="10dp"
-        android:gravity="center" />
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="#F08C35"
+                android:text="@string/scores_app_button"
+                android:id="@+id/buttonScoresApp"
+                android:onClick="launchApp"
+                android:layout_below="@+id/buttonSpotify"
+                android:layout_alignRight="@+id/buttonSpotify"
+                android:layout_alignEnd="@+id/buttonSpotify"
+                android:layout_marginTop="10dp"
+                android:gravity="center" />
 
-    <Button
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:background="#F08C35"
-        android:text="@string/build_it_bigger_button"
-        android:id="@+id/buttonBuiltItBigger"
-        android:onClick="launchApp"
-        android:layout_below="@+id/buttonLibraryApp"
-        android:layout_alignRight="@+id/buttonLibraryApp"
-        android:layout_alignEnd="@+id/buttonLibraryApp"
-        android:layout_marginTop="10dp"
-        android:gravity="center" />
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="#F08C35"
+                android:text="@string/library_app_buttton"
+                android:id="@+id/buttonLibraryApp"
+                android:onClick="launchApp"
+                android:layout_below="@+id/buttonScoresApp"
+                android:layout_alignRight="@+id/buttonScoresApp"
+                android:layout_alignEnd="@+id/buttonScoresApp"
+                android:layout_marginTop="10dp"
+                android:gravity="center" />
 
-    <Button
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:background="#F08C35"
-        android:text="@string/xyz_button"
-        android:id="@+id/buttonXYZ"
-        android:onClick="launchApp"
-        android:layout_below="@+id/buttonBuiltItBigger"
-        android:layout_alignRight="@+id/buttonBuiltItBigger"
-        android:layout_alignEnd="@+id/buttonBuiltItBigger"
-        android:layout_marginTop="10dp"
-        android:gravity="center" />
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="#F08C35"
+                android:text="@string/build_it_bigger_button"
+                android:id="@+id/buttonBuiltItBigger"
+                android:onClick="launchApp"
+                android:layout_below="@+id/buttonLibraryApp"
+                android:layout_alignRight="@+id/buttonLibraryApp"
+                android:layout_alignEnd="@+id/buttonLibraryApp"
+                android:layout_marginTop="10dp"
+                android:gravity="center" />
 
-    <Button
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:background="#26C6DA"
-        android:text="@string/capstone_button"
-        android:id="@+id/buttonCapstone"
-        android:onClick="launchApp"
-        android:layout_below="@+id/buttonXYZ"
-        android:layout_alignRight="@+id/buttonXYZ"
-        android:layout_alignEnd="@+id/buttonXYZ"
-        android:layout_marginTop="10dp"
-        android:gravity="center" />
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="#F08C35"
+                android:text="@string/xyz_button"
+                android:id="@+id/buttonXYZ"
+                android:onClick="launchApp"
+                android:layout_below="@+id/buttonBuiltItBigger"
+                android:layout_alignRight="@+id/buttonBuiltItBigger"
+                android:layout_alignEnd="@+id/buttonBuiltItBigger"
+                android:layout_marginTop="10dp"
+                android:gravity="center" />
 
-</RelativeLayout>
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="#26C6DA"
+                android:text="@string/capstone_button"
+                android:id="@+id/buttonCapstone"
+                android:onClick="launchApp"
+                android:layout_below="@+id/buttonXYZ"
+                android:layout_alignRight="@+id/buttonXYZ"
+                android:layout_alignEnd="@+id/buttonXYZ"
+                android:layout_marginTop="10dp"
+                android:gravity="center" />
 
+    </RelativeLayout>
 </ScrollView>
 
